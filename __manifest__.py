@@ -10,7 +10,7 @@
     'data': [
         'views/project_views.xml',
         'views/website_support_settings_views.xml',
-        'views/support_ticket_views.xml',        
+        'views/website_support_ticket_views.xml',        
     ],
     'demo': [],
     'depends': ['support_ticket', 'project'],

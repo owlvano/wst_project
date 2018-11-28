@@ -5,7 +5,7 @@ from odoo import api, fields, models
 class Task(models.Model):
     _inherit = "project.task"
 
-    ticket_id = fields.Many2one('website.support.ticket', string='Support Ticket', default=lambda self: self._get_default_ticket_id())
+    ticket_id = fields.Many2one('website.support.ticket', 'Website Support Ticket', default=lambda self: self._get_default_ticket_id())
 
     def _get_default_ticket_id(self):
         """ Gives default ticket_id """
