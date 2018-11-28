@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="website_support_settings_view_form" model="ir.ui.view">
+        <field name="name">website.support.settings form view</field>
+        <field name="model">website.support.settings</field>
+        <field name="inherit_id" ref="website_support.website_support_settings_view_form" />
+        <field name="arch" type="xml">
+            <group position="inside">
+                <field name="ticket_project_id"/>
+            </group>
+        </field>
+    </record>
+
+</odoo>
